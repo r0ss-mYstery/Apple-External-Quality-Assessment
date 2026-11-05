@@ -1,0 +1,35 @@
+{
+  "segmentation": {
+    "imgsz": 960,
+    "confidence": 0.25,
+    "nms_iou": 0.7,
+    "mask_threshold": 0.4,
+    "min_mask_area_px": 150
+  },
+  "depth": {
+    "pixel_sample_step": 2,
+    "min_valid_points": 30,
+    "max_depth_m": 15.0
+  },
+  "tracking": {
+    "gate3d_m": 0.08,
+    "min_iou": 0.1,
+    "max_misses": 12,
+    "previous_center_weight": 0.75,
+    "w3d": 1.0,
+    "w2d": 0.4
+  },
+  "ransac": {
+    "outer_arc_keep_quantile": 0.65,
+    "iterations": 900,
+    "min_inliers": 20,
+    "residual_threshold": "max(2 px, 0.03 * estimated_radius)"
+  },
+  "selection": {
+    "top_k": 5,
+    "min_quality": 0.15,
+    "min_arc_coverage": 0.35,
+    "min_inlier_ratio": 0.5,
+    "min_depth_valid_ratio": 0.25
+  }
+}

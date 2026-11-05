@@ -1,0 +1,28 @@
+{
+  "Fuji": {
+    "hue_ranges": [
+      [
+        0,
+        10
+      ],
+      [
+        164,
+        180
+      ]
+    ],
+    "s_min": 88,
+    "v_min": 79,
+    "v_max": 221
+  },
+  "GoldenDelicious": {
+    "hue_ranges": [
+      [
+        12,
+        43
+      ]
+    ],
+    "s_min": 32,
+    "v_min": 129,
+    "v_max": 244
+  }
+}
