@@ -1,0 +1,8 @@
+numpy>=1.26
+opencv-python>=4.8
+pandas>=2.0
+matplotlib>=3.8
+ultralytics>=8.4
+scipy>=1.10
+
+# ZED SDK / pyzed must be installed separately from Stereolabs.
